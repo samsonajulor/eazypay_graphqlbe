@@ -33,13 +33,9 @@ module.exports = {
     if (!isEqual) {
       throw new Error('Password is incorrect!');
     }
-    const token = jwt.sign(
-      { userId: user.id, email: user.email },
-      'somesupersecretkey',
-      {
-        expiresIn: '1h'
-      }
-    );
+    const token = jwt.sign({ userId: user.id, email: user.email }, 'add_this_to_env_and_change_it_in_production', {
+      expiresIn: '1h',
+    });
     return { userId: user.id, token: token, tokenExpiration: 1 };
   }
 };
