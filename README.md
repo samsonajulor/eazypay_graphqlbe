@@ -21,3 +21,7 @@ query {
   }
 }
 ```
+
+- This repository depends on a personal package create in the npm registry called [@samsonajulor/eazypay_schema_module](https://www.npmjs.com/package/@samsonajulor/eazypay_schema_module?activeTab=readme)
+
+[CLICK TO VIEW USAGE](https://www.npmjs.com/package/@samsonajulor/eazypay_schema_module?activeTab=readme)
