@@ -1,6 +1,7 @@
 # graphql_be
 
 - run `npm install` to install the dependencies
+- run `npm start` to start the application.
 - run `npm run start:dev` to start the application in development mode.
 
 - paste the following commands in the browser at `localhost:3000/graphql`
