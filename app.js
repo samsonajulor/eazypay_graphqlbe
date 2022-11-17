@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const graphqlHttp = require('express-graphql');
 const mongoose = require('mongoose');
 
-const graphQlSchema = require('./graphql/schema/index');
+const { graphQlSchema } = require('@samsonajulor/eazypay_schema_module');
 const graphQlResolvers = require('./graphql/resolvers/index');
 const isAuth = require('./middleware/is-auth');
 
